@@ -22,9 +22,7 @@ public class ClienteNewDTO implements Serializable{
 	private String email;
 	
 	@NotEmpty
-	
 	private String cpfOuCnpj;
-	@NotEmpty
 	private Integer tipo;
 	
 	@NotEmpty
